@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Header, Nav, Content, Footer } from './components';
 import './App.css';
 
 function App() {
+  const contactRef = React.createRef()
+  const aboutRef = React.createRef()
+  const projectsRef = React.createRef()
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <Header contactRef={contactRef} />
+      <Nav contactRef={contactRef} aboutRef={aboutRef} projectsRef={projectsRef}/>
+      <Content  aboutRef={aboutRef} projectsRef={projectsRef}/>
+      <Footer />
     </div>
   );
 }
