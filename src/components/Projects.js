@@ -27,7 +27,7 @@ const Projects = (props) => {
          />
         <Project title='SmashTracker' 
         description={stDescription}
-        image='url(./images/smImage.png)'
+        image='url(./images/stImage.png)'
         githubLink='https://github.com/chuey619/smashTracker'
         deployedLink='https://agile-cliffs-01660.herokuapp.com/'/>
         
