@@ -33,14 +33,14 @@
   position: fixed;
   z-index: 1;
   right: 0;
-  top: 50;
+  top: 30%;
   width: 10%;
   background-color: transparent;
   line-height: 5rem;
 }
 .footer {
   text-align: center;
-  background-image: url(http://api.thumbr.it/whitenoise-361x370.png?backgground=f4f6f7ff&noise=b3b3b3&density=6&opacity=100);
+  /* background-image: url(http://api.thumbr.it/whitenoise-361x370.png?backgground=f4f6f7ff&noise=b3b3b3&density=6&opacity=100); */
   padding-bottom: 1%;
 }
 .footer-text {
@@ -105,7 +105,7 @@ h4 {
   align-items: flex-start;
   width: 100%;
 
-  background-image: url(http://api.thumbr.it/whitenoise-361x370.png?backgground=f4f6f7ff&noise=b3b3b3&density=6&opacity=100);
+  /* background-image: url(http://api.thumbr.it/whitenoise-361x370.png?backgground=f4f6f7ff&noise=b3b3b3&density=6&opacity=100); */
 }
 .projects-main {
   align-self: flex-end;
@@ -169,7 +169,8 @@ h4 {
   height: 80%;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;

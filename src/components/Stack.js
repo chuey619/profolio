@@ -14,7 +14,6 @@ const Stack = () => {
             <i className="devicon-react-original"></i>
             <i className="devicon-yarn-plain"></i>
         </div>
-        
     )
 }
 
