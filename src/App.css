@@ -150,12 +150,16 @@ h4 {
   border-radius: 20px;
   margin-bottom: 5%;
   background-color: white;
-  transition: box-shadow 0.3s;
+  transition: box-shadow 0.2s;
 }
 .project:hover {
   -webkit-box-shadow: 0px 0px 32px 0px #003d5b;
   -moz-box-shadow: 0px 0px 32px 0px #003d5b;
   box-shadow: 0px 0px 32px 0px #003d5b;
+}
+.project-image:hover {
+  background-color: #424447;
+  background-blend-mode: overlay;
 }
 
 .project-meta {
@@ -300,6 +304,7 @@ h4 {
 @media only screen and (min-width: 1500px) {
   .project-image {
     background-size: cover;
+    background-position: center;
   }
   .project {
     max-width: 60%;
