@@ -304,11 +304,13 @@ h4 {
 @media only screen and (min-width: 1500px) {
   .project-image {
     background-size: cover;
-    background-position: center;
   }
   .project {
     max-width: 60%;
     height: 500px;
+  }
+  .project-image:nth-of-type(4) {
+    background-position: center bottom;
   }
   .project:nth-of-type(odd) {
     margin-right: 5%;
