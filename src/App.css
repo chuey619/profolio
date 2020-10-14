@@ -144,7 +144,6 @@ h4 {
   max-height: fit-content;
   border: 1px solid #003d5b;
   border-radius: 20px;
-  padding: 20px;
   margin-bottom: 5%;
   background-color: white;
   transition: box-shadow 0.3s;
@@ -159,19 +158,18 @@ h4 {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 20%;
+  height: fit-content;
   text-align: center;
-  margin-top: 3%;
 }
 .project-meta h1 {
   font-size: 2rem;
 }
 .project-image {
   width: 100%;
-  height: 70%;
+  height: 80%;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-right: 2%;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
