@@ -280,6 +280,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     position: initial;
+    height: fit-content;
   }
   .about-text {
     font-size: 1rem;
