@@ -18,7 +18,7 @@ const Projects = () => {
         deployedLink:'https://ci-project-manager.herokuapp.com/home'
       },
       {
-        title:'SmashTracker',
+        title:'Smash Tracker',
         description:'A full stack app using express and ejs. This app allows users to track their smash history against other uers in Super Smash Bros Ultimate',
         image:'url(./images/stImage.png)',
         githubLink:'https://github.com/chuey619/smashTracker',

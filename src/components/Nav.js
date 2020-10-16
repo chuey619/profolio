@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Socials, NavItems} from './index'
 const Nav = (props) => {
   return (
