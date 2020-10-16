@@ -334,6 +334,11 @@ a {
     height: 100%;
     width: 80%;
   }
+  .projects-header {
+    margin-left: 10%;
+    font-size: 2rem;
+    margin-top: 20%;
+  }
 }
 @media screen and (max-width: 1340px) {
   .about-main {
@@ -345,6 +350,11 @@ a {
   .skills-header {
     font-size: 2rem;
     margin-right: 5%;
+  }
+  .projects-header {
+    font-size: 2rem;
+    margin-right: 5%;
+    margin-top: 10%;
   }
   .skills-text,
   .about-text {

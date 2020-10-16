@@ -34,7 +34,7 @@ const Projects = () => {
     ]
     return (
         <div className='projects-main animate__animated animate__backInDown'>
-            <h1>My Work<span className='punctuation'>.</span></h1>
+            <h1 className='projects-header'>My Work<span className='punctuation'>.</span></h1>
             <div className='projects'>
             {projects.map((project, i) => <Project key={i} title={project.title} description={project.description} image={project.image} githubLink={project.githubLink} deployedLink={project.deployedLink}/>)}
             </div>
