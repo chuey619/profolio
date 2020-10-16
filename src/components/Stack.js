@@ -3,7 +3,7 @@ const Stack = () => {
     return (
         
         
-        <div className='stack'>
+        <div className='stack animate__animated animate__slideInUp'>
             <i className="devicon-css3-plain"></i>
             
             <i className="devicon-html5-plain"></i>

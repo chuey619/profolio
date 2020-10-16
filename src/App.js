@@ -1,17 +1,19 @@
-import React from 'react';
-import { Header, Nav, Content, Footer } from './components';
+import React, {useState} from 'react';
+import { Nav } from './components';
+import {Landing, Contact, About, Projects} from './pages'
 import './App.css';
 
 function App() {
-  const contactRef = React.createRef()
-  const aboutRef = React.createRef()
-  const projectsRef = React.createRef()
+ 
+  const [currentPage, setCurrentPage] = useState('Landing')
+  
   return (
     <div className="main">
-      <Header contactRef={contactRef} />
-      <Nav contactRef={contactRef} aboutRef={aboutRef} projectsRef={projectsRef}/>
-      <Content  aboutRef={aboutRef} projectsRef={projectsRef}/>
-      <Footer />
+      <Nav currentPage={currentPage} setCurrentPage={setCurrentPage}/>
+      <div className='content'>
+      {currentPage === 'Landing' ? <Landing /> : currentPage === 'About' ? <About /> : currentPage === 'Projects' ? <Projects /> : <Contact />}
+      </div>
+      
     </div>
   );
 }
