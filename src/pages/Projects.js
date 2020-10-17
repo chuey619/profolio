@@ -8,7 +8,7 @@ const Projects = () => {
         description:'A full stack app using the PERN stack that allows users to find movies and shows to watch on the streaming services they are subscribed to. This project taught me a lot about working with a team and git work flow.',
         image:'url(./images/wtwImage.png)',
         githubLink:'https://github.com/chuey619/whatShouldIWatch',
-        deployedLink:'https://dashboard.heroku.com/apps/serene-plateau-44893'
+        deployedLink:'https://serene-plateau-44893.herokuapp.com/'
       }, 
       { 
         title:'Project Manager',
