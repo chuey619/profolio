@@ -24,7 +24,7 @@ return (
     
     <a data-toggle="tooltip"
     data-placement="top"
-    title="Resume" className='nav-item'target='_blank' href='https://drive.google.com/file/d/1gGCBmfhvS_De4MmEBC217k2Z1hm9Z4KI/view?usp=sharing'><i className="fas fa-file-alt"></i></a>
+    title="Resume" className='nav-item'target='_blank' href='https://drive.google.com/file/d/1e0-je3dxF3WfTyXPrmk8j6g9wEmZH7wK/view?usp=sharing'><i className="fas fa-file-alt"></i></a>
   </div>
 )
 }
