@@ -86,11 +86,11 @@ p {
 a {
   text-decoration: none;
 }
-
+#resume {
+  margin: 20% auto 0 auto;
+}
 .nav-item {
-  display: flex;
-  justify-content: center;
-  margin-top: 20%;
+  margin: 20% auto 0 auto;
   color: #cfdbd5;
   font-size: 1.3rem;
   transition: color 0.3s;
@@ -116,7 +116,7 @@ a {
 .landing-header {
   font-size: 4rem;
   color: white;
-  margin-left: 5%;
+  margin-left: 10%;
   margin-top: 10%;
   font-weight: 600;
   animation-duration: 2s;

@@ -22,9 +22,9 @@ return (
     data-placement="top"
     title="My Work" id='Projects' onMouseOver={changeColorOnHover} onMouseLeave={changeColorOnMouseLeave}  style={props.currentPage === 'Projects' ? {color: yellow} : {color: offWhite}} onClick={()=> props.setCurrentPage('Projects')} className="fas fa-code nav-item"></i>
     
-    <a data-toggle="tooltip"
+    <a id='resume' data-toggle="tooltip"
     data-placement="top"
-    title="Resume" className='nav-item'target='_blank' href='https://drive.google.com/file/d/1e0-je3dxF3WfTyXPrmk8j6g9wEmZH7wK/view?usp=sharing'><i className="fas fa-file-alt"></i></a>
+    title="Resume" target='_blank' href='https://drive.google.com/file/d/1gGCBmfhvS_De4MmEBC217k2Z1hm9Z4KI/view?usp=sharing'><i className="fas fa-file-alt nav-item"></i></a>
   </div>
 )
 }
